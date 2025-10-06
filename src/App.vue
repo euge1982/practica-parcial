@@ -1,10 +1,21 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+//importo el componente TareaS que voy a renderizar
+import TareaS from "./components/TareaS.vue";
+
+</script>
 
 <template>
-  <h1>EJERCICIO N° 2</h1>
-  <p>
+  <div class="text-center p-8">
+    <h1 class="text-2xl font-bold mb-20">
+        EJERCICIO N° 2
+    </h1>
+    <div class="mt-20">
+      <TareaS />
+    </div>
+  </div>
 
-  </p>
+
+
 </template>
 
 <style scoped></style>
